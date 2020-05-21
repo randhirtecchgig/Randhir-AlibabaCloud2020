@@ -1,0 +1,381 @@
+2020-05-21 23:04:01.525  INFO 9232 --- [restartedMain] c.j.r.RestServiceApplication             : Starting RestServiceApplication on LAPTOP-N205SPLO with PID 9232 (C:\Randhir\Study\Spring\Workspace\randhirRetailService\target\classes started by randhirkumar in C:\Randhir\Study\Spring\Workspace\randhirRetailService)
+2020-05-21 23:04:01.527  INFO 9232 --- [restartedMain] c.j.r.RestServiceApplication             : No active profile set, falling back to default profiles: default
+2020-05-21 23:04:01.601  INFO 9232 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@9b7b67a: startup date [Thu May 21 23:04:01 IST 2020]; root of context hierarchy
+2020-05-21 23:04:04.503  INFO 9232 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-21 23:04:04.688  INFO 9232 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3087 ms
+2020-05-21 23:04:04.799  INFO 9232 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2020-05-21 23:04:04.803  INFO 9232 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-05-21 23:04:04.803  INFO 9232 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-05-21 23:04:04.803  INFO 9232 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-05-21 23:04:04.803  INFO 9232 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-05-21 23:04:04.965 DEBUG 9232 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : Driver class com.mysql.jdbc.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@1b6bd233
+2020-05-21 23:04:05.305  INFO 9232 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-21 23:04:05.649  INFO 9232 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@9b7b67a: startup date [Thu May 21 23:04:01 IST 2020]; root of context hierarchy
+2020-05-21 23:04:06.137  INFO 9232 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/greeting],methods=[GET]}" onto public com.java.randhirRetail.Greeting com.java.randhirRetail.GreetingController.greeting(java.lang.String)
+2020-05-21 23:04:06.143  INFO 9232 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-05-21 23:04:06.143  INFO 9232 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-05-21 23:04:06.189  INFO 9232 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-21 23:04:06.189  INFO 9232 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-21 23:04:06.303  WARN 9232 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-05-21 23:04:06.736  INFO 9232 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-05-21 23:04:06.780  INFO 9232 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-05-21 23:04:06.780  INFO 9232 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2020-05-21 23:04:06.788  INFO 9232 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2020-05-21 23:04:06.856  INFO 9232 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-21 23:04:06.860  INFO 9232 --- [restartedMain] c.j.r.RestServiceApplication             : Started RestServiceApplication in 5.948 seconds (JVM running for 6.734)
+2020-05-21 23:04:18.847  INFO 9232 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2020-05-21 23:04:18.885  INFO 9232 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 35 ms
+2020-05-21 23:04:18.943  INFO 9232 --- [http-nio-8080-exec-9] c.java.randhirRetail.GreetingController  : Creating tables for testing...
+2020-05-21 23:04:18.951 DEBUG 9232 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - configuration:
+2020-05-21 23:04:18.955 DEBUG 9232 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariConfig           : allowPoolSuspension.............false
+2020-05-21 23:04:18.955 DEBUG 9232 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariConfig           : autoCommit......................true
+2020-05-21 23:04:18.955 DEBUG 9232 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariConfig           : catalog.........................none
+2020-05-21 23:04:18.955 DEBUG 9232 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariConfig           : connectionInitSql...............none
+2020-05-21 23:04:18.955 DEBUG 9232 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariConfig           : connectionTestQuery.............none
+2020-05-21 23:04:18.955 DEBUG 9232 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariConfig           : connectionTimeout...............20000
+2020-05-21 23:04:18.955 DEBUG 9232 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariConfig           : dataSource......................none
+2020-05-21 23:04:18.955 DEBUG 9232 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariConfig           : dataSourceClassName.............none
+2020-05-21 23:04:18.955 DEBUG 9232 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariConfig           : dataSourceJNDI..................none
+2020-05-21 23:04:18.959 DEBUG 9232 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariConfig           : dataSourceProperties............{password=<masked>}
+2020-05-21 23:04:18.959 DEBUG 9232 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariConfig           : driverClassName................."com.mysql.jdbc.Driver"
+2020-05-21 23:04:18.959 DEBUG 9232 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariConfig           : healthCheckProperties...........{}
+2020-05-21 23:04:18.959 DEBUG 9232 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariConfig           : healthCheckRegistry.............none
+2020-05-21 23:04:18.959 DEBUG 9232 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariConfig           : idleTimeout.....................600000
+2020-05-21 23:04:18.959 DEBUG 9232 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariConfig           : initializationFailFast..........true
+2020-05-21 23:04:18.959 DEBUG 9232 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariConfig           : initializationFailTimeout.......1
+2020-05-21 23:04:18.959 DEBUG 9232 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariConfig           : isolateInternalQueries..........false
+2020-05-21 23:04:18.959 DEBUG 9232 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariConfig           : jdbc4ConnectionTest.............false
+2020-05-21 23:04:18.959 DEBUG 9232 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariConfig           : jdbcUrl.........................jdbc:mysql://rm-6gjb14h21ecjswbr1.mysql.ap-south-1.rds.aliyuncs.com:3306/alibabadb
+2020-05-21 23:04:18.959 DEBUG 9232 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariConfig           : leakDetectionThreshold..........0
+2020-05-21 23:04:18.959 DEBUG 9232 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariConfig           : maxLifetime.....................1800000
+2020-05-21 23:04:18.959 DEBUG 9232 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariConfig           : maximumPoolSize.................5
+2020-05-21 23:04:18.959 DEBUG 9232 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariConfig           : metricRegistry..................none
+2020-05-21 23:04:18.959 DEBUG 9232 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariConfig           : metricsTrackerFactory...........none
+2020-05-21 23:04:18.959 DEBUG 9232 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariConfig           : minimumIdle.....................5
+2020-05-21 23:04:18.959 DEBUG 9232 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariConfig           : password........................<masked>
+2020-05-21 23:04:18.959 DEBUG 9232 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariConfig           : poolName........................"HikariPool-1"
+2020-05-21 23:04:18.959 DEBUG 9232 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariConfig           : readOnly........................false
+2020-05-21 23:04:18.959 DEBUG 9232 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariConfig           : registerMbeans..................false
+2020-05-21 23:04:18.959 DEBUG 9232 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariConfig           : scheduledExecutor...............none
+2020-05-21 23:04:18.959 DEBUG 9232 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariConfig           : scheduledExecutorService........internal
+2020-05-21 23:04:18.959 DEBUG 9232 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariConfig           : schema..........................none
+2020-05-21 23:04:18.959 DEBUG 9232 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariConfig           : threadFactory...................internal
+2020-05-21 23:04:18.959 DEBUG 9232 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariConfig           : transactionIsolation............default
+2020-05-21 23:04:18.959 DEBUG 9232 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariConfig           : username........................"randhirdb"
+2020-05-21 23:04:18.959 DEBUG 9232 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariConfig           : validationTimeout...............5000
+2020-05-21 23:04:18.959  INFO 9232 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-05-21 23:04:39.310 DEBUG 9232 --- [http-nio-8080-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to create/setup connection: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2020-05-21 23:04:39.333 DEBUG 9232 --- [http-nio-8080-exec-9] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Cannot acquire connection from data source
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_151]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_151]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:990) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:342) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2197) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_151]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_151]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117) ~[HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123) ~[HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365) ~[HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194) ~[HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460) [HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:534) [HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) [HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) [HikariCP-2.7.9.jar:na]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151) [spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115) [spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78) [spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:371) [spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:415) [spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at com.java.randhirRetail.GreetingController.startBookApp(GreetingController.java:83) [classes/:na]
+	at com.java.randhirRetail.GreetingController.greeting(GreetingController.java:54) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209) [spring-web-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136) [spring-web-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102) [spring-webmvc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:891) [spring-webmvc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) [spring-webmvc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991) [spring-webmvc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925) [spring-webmvc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974) [spring-webmvc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866) [spring-webmvc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851) [spring-webmvc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-embed-websocket-8.5.34.jar:8.5.34]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109) [spring-web-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_151]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[na:1.8.0_151]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_151]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_151]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_151]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_151]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_151]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_151]
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:301) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	... 81 common frames omitted
+
+2020-05-21 23:04:40.342 ERROR 9232 --- [http-nio-8080-exec-9] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_151]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_151]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:990) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:342) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2197) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_151]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_151]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117) ~[HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123) ~[HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365) ~[HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194) ~[HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460) [HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:534) [HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) [HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) [HikariCP-2.7.9.jar:na]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151) [spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115) [spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78) [spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:371) [spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:415) [spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at com.java.randhirRetail.GreetingController.startBookApp(GreetingController.java:83) [classes/:na]
+	at com.java.randhirRetail.GreetingController.greeting(GreetingController.java:54) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209) [spring-web-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136) [spring-web-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102) [spring-webmvc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:891) [spring-webmvc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) [spring-webmvc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991) [spring-webmvc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925) [spring-webmvc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974) [spring-webmvc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866) [spring-webmvc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851) [spring-webmvc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-embed-websocket-8.5.34.jar:8.5.34]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109) [spring-web-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_151]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[na:1.8.0_151]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_151]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_151]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_151]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_151]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_151]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_151]
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:301) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	... 81 common frames omitted
+
+2020-05-21 23:04:40.414 ERROR 9232 --- [http-nio-8080-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.] with root cause
+
+java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_151]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[na:1.8.0_151]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_151]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_151]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_151]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_151]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_151]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_151]
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:301) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2197) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_151]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_151]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117) ~[HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123) ~[HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365) ~[HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194) ~[HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460) ~[HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:534) ~[HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) ~[HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-2.7.9.jar:na]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:371) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:415) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at com.java.randhirRetail.GreetingController.startBookApp(GreetingController.java:83) ~[classes/:na]
+	at com.java.randhirRetail.GreetingController.greeting(GreetingController.java:54) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209) ~[spring-web-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136) ~[spring-web-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102) ~[spring-webmvc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991) ~[spring-webmvc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925) ~[spring-webmvc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974) ~[spring-webmvc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866) ~[spring-webmvc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635) ~[tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851) ~[spring-webmvc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) ~[tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) ~[tomcat-embed-websocket-8.5.34.jar:8.5.34]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109) ~[spring-web-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) ~[tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+
+2020-05-21 23:05:44.092  INFO 9232 --- [Thread-6] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@9b7b67a: startup date [Thu May 21 23:04:01 IST 2020]; root of context hierarchy
+2020-05-21 23:05:44.096  INFO 9232 --- [Thread-6] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2020-05-21 23:05:44.100  INFO 9232 --- [Thread-6] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
