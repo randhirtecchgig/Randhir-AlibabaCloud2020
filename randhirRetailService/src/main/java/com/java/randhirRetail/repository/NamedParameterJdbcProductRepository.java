@@ -26,7 +26,7 @@ public class NamedParameterJdbcProductRepository extends JdbcProductRepository {
     @Override
     public int update(Product product) {
         return namedParameterJdbcTemplate.update(
-                "update books set price = :price where id = :id",
+                "update product set brandName = :brandName where productId = :productId",
                 new BeanPropertySqlParameterSource(product));
     }
 

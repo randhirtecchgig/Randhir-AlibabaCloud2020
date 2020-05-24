@@ -18,11 +18,11 @@ public class RestServiceApplication {
 	
     @Autowired
     //@Qualifier("jdbcBookRepository")              
-    @Qualifier("namedParameterJdbcBookRepository")  
-    protected   ProductRepository productRepository;
+    @Qualifier("namedParameterJdbcProductRepository")  
+    public   ProductRepository productRepository;
 
     @Autowired
-    protected  RetailCustomerRepository retailCustomerRepository;
+    public  RetailCustomerRepository retailCustomerRepository;
 
     
     public static void main(String[] args) {
